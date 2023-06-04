@@ -95,6 +95,7 @@
         justify-content: space-around;
         flex-wrap: wrap;
         flex-direction: column;
+        align-content: space-around;
       }
 
       .text {
@@ -108,9 +109,13 @@
       .text-div {
         background: rgba(142, 139, 139, 1);
         height: 320px;
-        width: 565px;
+        width: 315px;
         display: flex;
         padding: 0px 60px;
+      }
+
+      .beach {
+        width: 315px;
       }
 
       footer {
@@ -175,6 +180,11 @@
           height: 60px;
           margin-left: 50px;
         }
+
+        .text-div,
+        .beach {
+          width: 565px;
+        }
       }
       /*mobile*/
       @media screen and (max-width: 600px) {
@@ -235,7 +245,7 @@
         <p class="section-head">ABOUT</p>
         <div class="second-section-div">
           <div class="image-div">
-            <img src="images-for-8/pic4.png" alt="beach-pic" />
+            <img class="beach" src="images-for-8/pic4.png" alt="beach-pic" />
           </div>
 
           <div class="text-div">
